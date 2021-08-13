@@ -3,7 +3,7 @@ import requests
 import sqlite3
 
 bot = TeleBot('1925289738:AAFQOPCVTlknNihpYd44ertOAVnXqvLsD3E')
-link = 'https://film-from-text.herokuapp.com'
+link = 'http://18.118.209.62'
 
 
 @bot.message_handler(commands=['start'])
