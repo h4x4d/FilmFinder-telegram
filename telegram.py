@@ -1,8 +1,10 @@
 from telebot import TeleBot
 import requests
 import sqlite3
+import os
 
-bot = TeleBot('1925289738:AAFQOPCVTlknNihpYd44ertOAVnXqvLsD3E')
+token = os.getenv('TELEGRAMBOT_TOKEN')
+bot = TeleBot(token)
 link = 'http://18.118.209.62'
 
 
